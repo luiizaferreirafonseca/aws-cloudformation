@@ -1,0 +1,34 @@
+**** AWS CLOUDFORMATION ****
+
+O AWS CloudFormation é um serviço da Amazon Web Services (AWS) que permite provisionar e gerenciar recursos de forma automatizada e padronizada, usando arquivos de configuração chamados templates (em JSON ou YAML).
+
+🔑 Conceitos Principais
+
+Template:
+Arquivo em YAML ou JSON que descreve os recursos a serem provisionados (ex: EC2, S3, RDS).
+
+Stack:
+Conjunto de recursos criados a partir de um template. Uma stack pode ser criada, atualizada ou deletada.
+
+Change Set:
+Um "rascunho" que mostra quais mudanças acontecerão antes de atualizar a stack. Ajuda a evitar erros.
+
+Resources:
+A parte mais importante do template. Cada item aqui é um recurso da AWS que será criado.
+
+Parameters:
+Valores dinâmicos passados para o template (ex: nome do bucket, tipo da instância EC2).
+
+Outputs:
+Informações retornadas depois que a stack é criada (ex: URL de um bucket S3).
+
+📌 Vantagens
+
+Provisionamento automático e repetível (mesmo template = mesma infra).
+
+Controle de versão: templates podem ser versionados no GitHub.
+
+Redução de erros: evita criar recurso manualmente no console.
+
+Automação completa: ideal para CI/CD e ambientes múltiplos (dev, test, prod).
+
