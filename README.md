@@ -21,12 +21,14 @@ Em vez de criar manualmente cada recurso no console, você descreve tudo em um *
 
 ## 📂 Estrutura do Repositório  
 
+```bash
 .
-├── README.md # Documentação principal do desafio
-├── templates/ # Templates CloudFormation em YAML/JSON
-│ └── exemplo.yaml
-├── images/ # imagens relevantes
-└── anotacoes/ # Arquivos com insights e observações pessoais
+├── README.md            # Documentação principal do desafio  
+├── templates/           # Templates CloudFormation em YAML/JSON  
+│   └── exemplo.yaml     
+├── images/              # Imagens relevantes  
+└── notes/           # Arquivos com insights e observações pessoais  
+
 
 ## :eyeglasses: Autora
 
