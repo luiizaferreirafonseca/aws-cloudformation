@@ -30,7 +30,4 @@ Em vez de criar manualmente cada recurso no console, você descreve tudo em um *
 └── notes/           # Arquivos com insights e observações pessoais  
 
 
-## :eyeglasses: Autora
 
-<div><img src="https://github.com/luizaferreirafonseca.png" width="100px;"/></div>
-<div><a href="https://github.com/luizaferreirafonseca">Luiza Ferreira</a></div>
